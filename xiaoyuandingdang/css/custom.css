@@ -1,0 +1,111 @@
+#footer {
+	height: 70px;
+	background-color: #f5f5f5;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+}
+
+.form-register input[type="text"] {
+	margin-bottom: 10px;
+}
+
+.form-forgot input[type="text"] {
+	margin-bottom: 10px;
+}
+
+.upload {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#post-detail-img img {
+	max-width: 600px;
+}
+
+#head-img {
+	max-width: 100px;
+}
+
+.uhead-comment {
+	max-width:120px;
+}
+
+.comment-margin {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 10px;
+	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	margin-top: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+
+.carousel-inner>.item>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
+.post-detail {
+	border: 1px solid #248bca;
+	padding: 10px;
+}
+
+.jiathis {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
