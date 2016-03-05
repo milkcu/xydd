@@ -37,4 +37,6 @@ Web Service的WSDL语言描述详见<http://xyddws.sinaapp.com/nusoapService.php
 
 Android客户端参考[eoe安卓客户端](https://github.com/eoecn/android-app/)完成，源码参见<https://github.com/milkcu/xydd-app>。
 
+注：由于现在SAE禁用了socket和curl，需要把NuSOAP用于访问网络的代码改成用SAE的FetchURL实现，所以现在该项目暂时无法演示。
+
 -EOF-
